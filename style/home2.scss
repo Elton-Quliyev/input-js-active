@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+
+
+
+.container{
+
+    .container__inp{
+        font-size: 22px;
+        outline: none;
+    }
+   
+}
+.btn{
+    border: none;
+    padding: 8px 20px;
+    background-color: darkblue;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container_li{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 22%;
+    justify-content: space-between;
+}
+
+.list2{
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
